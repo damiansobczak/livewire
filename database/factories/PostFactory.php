@@ -23,7 +23,7 @@ class PostFactory extends Factory
     {
         return [
             'title' => $this->faker->sentence(5),
-            'description' => $this->faker->text(200),
+            'description' => $this->faker->text(120),
             'likes' => $this->faker->randomDigit(),
         ];
     }
